@@ -50,3 +50,6 @@ b = 10
 print(a == b) # Comparison of values 
 print(a is b) # Comparison of memory
 
+# Bitwise Operators - Used in low level programming (0101010)
+# &(AND) , |(OR) , etc - refer the truth table 
+
