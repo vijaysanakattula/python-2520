@@ -33,3 +33,36 @@ print(id(list_nums_b))
 print(list_nums_a) # print entire list
 print(list_nums_b) # print entire list
 
+
+print(type(student_name))
+print(type(student_age))
+print(type(student_gpa))
+print(type(student_passed))
+
+
+name = "Vijay"
+age = 20
+
+
+# old style of python
+print("my name is ", name + " and my age is ", age)
+
+print("My name is {name} and my age is {age} after 5 years my age is {age+5}") # no f string
+print(f"My name is {name} and my age is {age} after 5 years my age is {age+5}") # f string
+
+
+
+x,y,z = 10,20,30
+print(x)
+print(y)
+print(z)
+
+a = 10
+b = 20
+c = 10
+d = 10 
+
+a = c = d = 10
+print(a)
+print(c)
+print(d)
