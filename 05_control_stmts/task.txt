@@ -1,0 +1,13 @@
+# Simulate OTP/PIN/PASSWORD Verification System
+
+-> You are building a OTP verification System
+-> User will be prompted to enter 4 digit PIN
+
+-> If given OTP is not 4 digits 
+    -> OTP must be 4 digits 
+
+-> If given OTP is 4 digits and also correct OTP
+    -> Correct OTP - Transaction Success
+
+-> Give the user Maximum 3 attempts, 
+    -> If maximum attempts reached, try after 24 hours 

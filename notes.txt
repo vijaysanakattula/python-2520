@@ -1,0 +1,11 @@
+16th Sep 2025
+-------------
+
+-> Nested COnditionals : Conditionals inside Conditionals
+-> Nested Loops : Loops inside Loop
+
+
+-> Branching Statements (Jump Statements)
+    -> break : helps you exit loops
+    -> Continue : helps you skip the current iteration in loop
+    -> pass : acts as a placeholder, for doing nothing
