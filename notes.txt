@@ -9,3 +9,13 @@
     -> break : helps you exit loops
     -> Continue : helps you skip the current iteration in loop
     -> pass : acts as a placeholder, for doing nothing
+
+    18th Sep 2025
+    ---------------
+-> Student Grade Tracker Solution
+-> String Formatting
+-> String Concatenation
+-> String Repitition
+-> String Immutability 
+-> String Methods
+    -> String class(datatype) provides various methods
