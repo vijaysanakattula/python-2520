@@ -19,3 +19,37 @@
 -> String Immutability 
 -> String Methods
     -> String class(datatype) provides various methods
+
+
+20th Sep 2025
+--------------
+-> Simple data types
+    -> Can hold one value 
+    -> data = 10 
+
+-> Complex Data types 
+    -> Can hold multiple values
+    -> data = [10,20,30,40,50]
+
+-> In python (part of standard library), we use follwoing classes to work with complex data types
+    -> List
+    -> Tuple 
+    -> Dictionary 
+    -> Set 
+
+1. List:
+    -> List is a data structure which allows you to store multiple values in a single variable 
+    -> Lists are represented using [] or use list class ==> list()
+    -> Accessing the data in Lists 
+        -> Like in Strings, we have index which starts from 0
+        -> Use index number to access individual elements
+        -> Both positive and negative indexing
+        -> Indexing is same as Strings 
+        -> Slicing is same as strings 
+
+    -> Looping
+    -> Operators 
+    -> Conditionals 
+    -> Duplicates allowed 
+    -> List Methods / Operations 
+        -> 
