@@ -52,4 +52,33 @@
     -> Conditionals 
     -> Duplicates allowed 
     -> List Methods / Operations 
-        -> 
+
+
+22nd SEP 2025
+=============
+-> List Methods Continued..
+
+-> Lsist Characteristics 
+    -> order: Lists is ordered (inserion order is preserved)
+    -> Mutable : Lists can be modified (append,clear)
+    -> Duplicates : Allowed 
+    -> Can we hold different data types : Yes 
+
+2. Tuples:
+    -> Tuples is a data structure which allows you to store multiple values in a single variable 
+    -> Tuples are represented using () or use list class ==> list()
+    -> Accessing the data in Tuples 
+        -> Like in Strings, we have index which starts from 0
+        -> Use index number to access individual elements
+        -> Both positive and negative indexing
+        -> Indexing is same as Strings 
+        -> Slicing is same as strings 
+        -> Tuples are Immutable 
+
+    -> Looping
+    -> Operators 
+    -> Conditionals 
+    -> Duplicates allowed 
+    -> Tuples Methods / Operations 
+
+
