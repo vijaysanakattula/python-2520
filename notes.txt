@@ -82,3 +82,20 @@
     -> Tuples Methods / Operations 
 
 
+23rd SEP 2025
+==========
+-> Dictionary (Mapping Type of Data)
+-> Dictionary is a data structure which allows you to multiplekey, values in a single 
+    -> key, value -> pair / item 
+        key:value,key:value
+    -> dictionaries are represented using { } or use tuple class ==> dict()
+-> There is no index in dictionaries
+-> NO Indexing
+-> No Slicing 
+-> Rule 
+    -> keys cannot be duplicate (it will override the data)
+    -> keys should be Immutable objects only (95% or above keys will be strings)
+    -> values can be duplicates 
+    -> values can be any object 
+
+-> In dictionaries, we access 
