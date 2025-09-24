@@ -98,4 +98,45 @@
     -> values can be duplicates 
     -> values can be any object 
 
--> In dictionaries, we access 
+-> In dictionaries, we use key to access data/values not index 
+
+24th SEP 2025
+===================
+
+-> Sets is a data structure which allows you to store multiple values in a single variable 
+-> Sets are represented using { } or use set class ==> set()
+    -> dict : {1:100,2:200,3:300}
+    -> Set : {100,200,300}
+
+-> Accessing the data in Sets 
+    -> Sets doesn't support index 
+    -> NO Indexing
+    -> NO SLICING 
+
+-> Sets are UUU
+    -> U - Unordered (No order - No index)
+    -> U - Unique (No Duplicates, if we add forcefully, will be removed)
+    -> U - Unindex 
+
+-> Sets are specially used when we want to perform  math operaions of Sets
+    -> Union
+    -> Intersection 
+    -> Difference 
+    -> etc
+
+-> Frozenset : immutable set 
+
+-> Set Characteristics
+    -> Order : Sets are Unordered (inserion order is preserved)
+    -> Mutable : Sets can be modified (append,clear)
+    -> Duplicates : Not Allowed 
+    -> Can we hold different data types : Yes 
+
+-> Building Applications ?
+    -> List (Seq of values, mutable) {in which context}
+    -> Tuple (") (immutable)
+    -> Dictionary (mapping Types) {in which context}
+    -> Set (Unique data) {in which context}
+
+-> Databases (CRUD) : Database point of view 
+
