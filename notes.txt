@@ -140,3 +140,9 @@
 
 -> Databases (CRUD) : Database point of view 
 
+25th SEP 2025
+==============
+-> Application Requirement
+    -> Student Management System (Product/ EMployee etc)
+        -> C - Create 
+        -> R - Read 
