@@ -157,3 +157,35 @@
 -> Student Management System (Product/ EMployee etc) Continued
 
 -> Similar to Student Management System, create a Product Management system which is a sub service of Ecommerce System
+
+29th SEP 2025
+=============
+-> Arbitrary Positional Arguements(*args) - (only values)
+    -> Allows you to accept any number of Positional Arguements
+    -> Used when you don't know how mnay arguements a fucntion might receive 
+
+-> Arbitrary Keywords Arguements (**kwargs) - (key values)
+    -> Allows you to accept any number of Keyword Arguements
+    -> Used when you don't know how mnay arguements a fucntion might receive  
+    -> All the arguements we pass will be captured in a Dictionary
+
+-> "return" is a keyword in python, used in functions to give appropriate response, when a function is called 
+    -> When you don't use return, by default a function return None 
+    -> If we use return, make sure it is the last statement to be executed 
+    -> If we have multiple returns sequentially, first will be considered 
+    -> If multiple returns are present, and used with control structure, you can control the flow 
+
+-> Function Composition 
+    -> Function calling another function is called Function Composition, for Reusuability 
+
+-> Scope of Variables inside Fucntions 
+    -> Scope : Inside the code, where you can access a variable depends upon the Scope 
+        -> Local Scope 
+        -> Global Scope 
+    
+    -> Local Scope 
+        -> A Local variable is declared inside the function 
+        -> Its lofetime exists only within the function, while the function runs
+        -> so we cannot use them outside the function 
+        -> NOTE : Parameters we are passing to the functions, are local variables 
+
