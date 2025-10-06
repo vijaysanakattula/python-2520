@@ -189,3 +189,59 @@
         -> so we cannot use them outside the function 
         -> NOTE : Parameters we are passing to the functions, are local variables 
 
+
+30th SEP 2025
+=============
+-> Fucntion Types in Python 
+    -> Built in functions 
+
+    -> User Defined functions
+
+    -> Lambda functions (Anonymous functions)
+        -> A Lambda function is a small, one line function with no names i.e Anonymous 
+        -> NOTE: Used ONLY FOR ONE LINE EXPRESSIONS 
+        -> We use "Lambda" keyword to work with Lambda functions 
+        -> In Lambda functions, result of EXPRESSION is automatically returned 
+        -> NOTE: used for simple and quick tasks, especially when passing a function as a parameter 
+        -> One Liner Functions also called IILE = Immediately Invoked Lambda Expression 
+
+        -> Syntax 
+            
+            lambda arguments: expression 
+
+                -> arguments can be multiple, but expression is one line only 
+
+
+    -> This lambda expressions will be attached with higher functions 
+    -> Higher order Functions 
+        -> map, filter and reduce 
+
+
+6th OCT 2025
+============
+-> CRUD App using functional style 
+-> Modules 
+    -> A Module is a simple Python file which contains python definitions 
+        -> Variables 
+        -> Statements 
+        -> Functions 
+        -> Classes 
+        -> etc 
+    -> Modules allows you to reuse code instaed of rewriting 
+-> Types of Modules 
+    -> Inbuilt Modules 
+        -> Provided as part of standard python library
+    -> User defined Modules 
+        -> Created by user itself 
+    -> External Modules 
+        -> Provided third pary vendors
+        -> https://pypi.org/
+        -> pip = python package manager 
+        -> pip install pandas (win)
+        -> pip3 install pandas (mac)
+    -> Syntax
+        import module (import whole module and all functionalities)
+        from module import specific_functionality (import only specific Functionalities) (recommended)
+        
+
+

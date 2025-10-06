@@ -117,3 +117,61 @@ add(30,20)
 
 # tring to access local variable outsie the function
 # print(la)
+
+# get predefined functions 
+import builtins
+# print(dir(builtins))
+
+# without lambda
+def add(a,b):
+    return a+b
+print(add(3,4))
+
+# with lambda
+# lambda arguments: expression 
+sum = lambda a,b: a+b
+print(sum(10,20))
+
+# IILE 
+print((lambda a,b: a+b)(5,8))
+
+# without lambda 
+def is_even(num):
+    if num % 2 == 0:
+        return True
+    else:
+        return False 
+    
+print(is_even(5))
+print(is_even(10))
+
+# with lambda
+# lambda arguments: expression 
+print((lambda num: num % 2 == 0)(5))
+print((lambda num: num % 2 == 0)(4))
+
+print((lambda num: num % 2 != 0)(4))
+print((lambda num: num % 2 != 0)(5))
+
+print((lambda num: "Positive" if num > 0 else "Negative" if num < 0 else "Zero") (-10))
+
+# employee_info = lambda emp_name,emp_email,emp_location: print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}")
+
+# regular function 
+def greet(name):
+    print("Hello",name)
+    print("Welcome To Python")
+
+greet("vijay")
+
+greet = lambda name: print("Hello",name); print("Welcome To Python")
+
+def add_nums(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total 
+
+print(add_nums(1,2,3))
+
+lambda *numbers: for num in numbers: total +=num 
