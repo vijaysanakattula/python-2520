@@ -255,5 +255,25 @@
         -> pip install pandas (win)
         -> pip3 install pandas (mac)
     -> You are working with some API (provided by some external service provider)
-    
+
+10th Oct 2025
+=============
+-> Working with JSON files (Dictionary like data)
+
+-> JSON (JavaScript Object Notation) is a human-readable, text-based format 
+for storing and exchanging data that is widely used for 
+web applications, APIs, and configuration files. 
+
+-> It represents data as key-value pairs within objects 
+-> (enclosed in curly braces {}) - Same as Dictionary in Python 
+
+-> Very commonly used in Application development (API's)
+-> We have "json" module built in python standard library
+
+-> json Operations
+    -> dump -> as a file we can store data accepts data and filename 
+    -> load -> from a json file we can read data 
+    -> dumps -> object based writing 
+    -> loads -> object based reading 
+
 
